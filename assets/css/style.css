@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-image: url(../img/rpd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* AREA DA LOGO E MENU*/
+header,
+footer{    
+    background-color: #111;
+    color: #FFF;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    height: 80px;
+}
+
+header .container,
+#about .container,
+#games .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.first-logo {
+    color: red;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline ;
+    color: red;
+}
+/* FIM AREA DA LOGO E MENU */
+
+
+/*SOBRE A FRANQUIA*/
+
+#about {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+section .container,
+#games .container {
+    background-color: #ffffff1f;
+    box-shadow: 0 0 5px #888;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.abt-img {
+    height: 300px;
+}
+
+section h2,
+section h3,
+section h4 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #888;
+    text-shadow: 1px 1px 1px #111;
+    text-decoration: 2px  underline ;
+}
+
+section p {
+    color: #888;
+    text-shadow: 1px 1px 1px #111;
+    margin-top: 20px;
+    padding: 0 16px;
+}
+
+.brands {
+    margin-top: 30px;
+}
+
+#capcom-logo {
+    width: 100px;
+}
+/*FIM SOBRE A FRANQUIA*/
+
+/*LISTA DE JOGOS*/
+
+#games {
+    margin-bottom: 20px;
+}
+#games .container {
+    flex-direction: column;
+}
+#games h2 {
+    margin-top: 20px;
+}
+.games-list {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.games-list h3,
+.contact-methods h4 {
+    color: #5b5b46;
+    margin-top: 20px;
+}
+
+/*FIM LISTA DE JOGOS*/
+
+/*FORMULARIO de CONTATO*/
+
+#contact .container {
+    padding-bottom: 20px;
+}
+#contact .container h2 {
+    padding-top: 20px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contact-methods h4 {
+    margin-top: 0;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+    margin-bottom: 0;
+}
+form button,
+.button {
+    background-color: #5b5b46;
+    color: #ecf0f1;
+    border: none;
+    margin: 0;
+}
+form button:hover,
+.button:hover {
+    background-color: #6e6e58;
+    color: #c2ce18;
+    border: none;
+    cursor: pointer;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.social-links a img {
+    width: 35px;
+}
+
+/*FIM FORMULARIO de CONTATO*/
+
+/* RODAPÉ */
+footer {
+    height: 80px;
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 5px;
+}
