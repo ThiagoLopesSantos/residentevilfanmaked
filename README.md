@@ -1,2 +1,2 @@
-# tlsinfo
-Sua loja de informática preferida!
+# Resident Evil FanMaked
+O site sobre Resident Evil de fã para fãs!
